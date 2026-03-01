@@ -31,5 +31,9 @@
         <env name="PULSE_ENABLED" value="false"/>
         <env name="TELESCOPE_ENABLED" value="false"/>
         <env name="NIGHTWATCH_ENABLED" value="false"/>
+        <env name="SCREENSCRAPER_BASE_URL" value="https://api.screenscraper.fr/api2"/>
+        <env name="SCREENSCRAPER_DEV_ID" value="testdev"/>
+        <env name="SCREENSCRAPER_DEV_PASSWORD" value="testpass"/>
+        <env name="SCREENSCRAPER_SOFT_NAME" value="TestApp"/>
     </php>
 </phpunit>
